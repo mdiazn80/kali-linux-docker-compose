@@ -3,5 +3,5 @@
 ## RUN
 
 ```shell
-docker compose run kali
+docker compose run -it --rm kali /bin/bash
 ```
