@@ -13,6 +13,7 @@ services:
         target: /share
     networks:
       - kali-network
+    privileged: true
 
 networks:
   kali-network:
