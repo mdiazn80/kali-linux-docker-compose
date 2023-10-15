@@ -4,7 +4,9 @@ FROM kalilinux/kali-rolling:${KALI_VERSION}
 
 RUN apt -y update && apt -y upgrade && apt -y autoremove && apt clean
 
-RUN apt -y install pciutils
+RUN apt -y install \
+    pciutils \ 
+    kmod
 
 RUN apt -y install aircrack-ng
 
