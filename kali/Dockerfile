@@ -1,4 +1,4 @@
-ARG KALI_VERSION
+ARG KALI_VERSION=latest
 
 FROM kalilinux/kali-rolling:${KALI_VERSION}
 
